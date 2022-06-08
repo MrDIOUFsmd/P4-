@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.retourmenu {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    background: white;
+    color: black;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -829,12 +835,15 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.webp");
 }
-.text-center p{
-    font-size: 20px;
+.text-center {
+    font-size: 16px;
+    
 }
-
+.row {
+    width: 100%;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -862,11 +871,23 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .retourmenu {
+        font-size: 25px;
+        position: relative;
+        top: -15px;
+        left: 1000px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    .retourmenu {
+        font-size: 25px;
+        position: relative;
+        top: -15px;
+        left: 1000px;
+    }   
     }
 }
 
