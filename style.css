@@ -856,8 +856,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
-
+@media (min-width: 992px) {
+    .retourmenu {
+        font-size: 25px;
+        position: relative;
+        left: 600px;
+    }
+}
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -865,29 +872,25 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .retourmenu {
+        font-size: 25px;
+        position: relative;
+        left: 420px;
+    }
+   
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-    .retourmenu {
-        font-size: 25px;
-        position: relative;
-        top: -15px;
-        left: 1000px;
-    }
+    
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    .retourmenu {
-        font-size: 25px;
-        position: relative;
-        top: -15px;
-        left: 1000px;
-    }   
+    
     }
 }
 
