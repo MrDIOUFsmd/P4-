@@ -8,10 +8,31 @@ body {
 }
 .retourmenu {
     font-size: 25px;
+    width: 200px;
+    border-radius: 10px;
     position: relative;
     left: 10px;
     background: white;
     color: black;
+    border: solid black;
+}
+
+.retourmenu:hover {
+    background: #F3976C;
+}
+.socialtitle p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.social a{
+    text-decoration: underline;
+}
+
+.keywords {
+    text-align: center;
 }
 a,
 button {
@@ -515,7 +536,6 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -657,8 +677,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
+
 li, a{
     min-width: 48px;
     min-height: 48px;
@@ -708,7 +729,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -749,7 +770,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -788,21 +809,24 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FFFFFF;
+    color: black!important;
+    border: solid black;
+    margin: auto;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C;
     color: #FFFFFF!important;
+    transform: scale(1.02)
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
@@ -810,7 +834,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c27956!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -841,9 +865,7 @@ h4 {
     font-size: 16px;
     
 }
-.row {
-    width: 100%;
-}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -932,8 +954,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
     .b-parallax {
         background-attachment: scroll;
