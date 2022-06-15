@@ -10,8 +10,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	
 
 
     
@@ -19,29 +18,32 @@
  
 <!-- Analytics END -->
     
-</head>
-<body>
+  </head>
+  <body>
 <!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
+   <header>
+    <div class="page-container">
+  
+    <!-- bloc-0 -->
+     <div class="bloc bgc-white l-bloc " id="bloc-0">
+	  <div class="container bloc-sm">
 		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
-
-				   <a href="index.html" class="retourmenu">Menu</a>
-			</div>
+		 <div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
+			    <a href="index.html" aria-label="retour au menu principal" class="retourmenu" >Menu</a>
+		 </div>
 			
 		</nav>
+	  </div>
+	 </div>
 	</div>
-</div>
-<!-- bloc-0 END -->
+	<!-- bloc-0 END -->
+   </header>
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
+   <main>
+     <!-- bloc-6 -->
+     <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+	  <div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
@@ -53,13 +55,13 @@
 				</p>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+	  </div>
+     </div>
+     <!-- bloc-6 END -->
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
+     <!-- bloc-7 -->
+     <div class="bloc bgc-white l-bloc" id="bloc-7">
+	  <div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
 				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
@@ -67,26 +69,26 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input aria-label="Indiquez votre nom" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input aria-label="Indiquez votre adresse mail" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input aria-label="Dites-nous comment vous nous avez connu" class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea aria-label="Expliquez-nous briévement votre projet. Ajoutez autant de détails que nécessaire" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" aria-label="Envoyer le formulaire " type="submit">
 						Envoyer
 					</button>
 				</form>
@@ -97,17 +99,17 @@
 				</p>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
+	  </div>
+     </div>
+     <!-- bloc-7 END -->
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
+     <!-- ScrollToTop Button -->
+     <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+     <!-- ScrollToTop Button END-->
+   </main>
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+   <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -115,36 +117,38 @@
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
+					<div class="socialtitle">
+						<p>	Rejoignez-nous sur les réseaux sociaux !</p>
+					</div>
 					<div class="col-sm-3">						
 						<div class="text-center">
-							<a class="social" href="index.html">Twitter<span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" aria-label="Lien vers notre page Twitter" href="index.html">Twitter<span class="fa fa-twitter icon-md"></span></a>
 						</div>						
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"> Facebook<span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" aria-label="Lien vers notre page Facebook" href="index.html"> Facebook<span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"> Dribble<span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" aria-label="Lien vers notre page Dribble" href="index.html"> Dribble<span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"> Instagram<span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" aria-label="Lien vers notre page Instagram" href="index.html"> Instagram<span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-					<div class="keywords" style="color: #F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+					<div class="keywords" style="color:black ;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				</div>
 				
 			</div>
 		</div>
 	</div>
-</div>
-</div>
+   </footer>
 <!-- Principal conteneur END -->
     
 
-</body>
+  </body>
 </html>
